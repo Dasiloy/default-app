@@ -1,0 +1,47 @@
+.BlogHero:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  top: 0;
+  left: 0;
+  background: url(../../../../../assets/hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.BlogHero {
+  position: relative;
+}
+
+.heroImg {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .BlogHero {
+    margin-bottom: 120px !important;
+  }
+  .heroflex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .heroChild1 {
+    width: 40%;
+    display: block;
+  }
+  .heroChild2 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .BlogHero::before {
+    background-size: contain;
+    height: 100%;
+  }
+}
