@@ -82,7 +82,7 @@ export default function SingleBlog({
                 mb='1'
                 fontSize='13px'
                 fontStyle='normal'
-                fontWeight='semibold'
+                fontWeight='bold'
                 color='grayBlack'>
                 {name}
               </Heading>

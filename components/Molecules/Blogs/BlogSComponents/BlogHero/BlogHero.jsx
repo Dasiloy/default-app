@@ -105,7 +105,7 @@ export default function BlogHero() {
                   as='h6'
                   fontSize='13px'
                   fontStyle='normal'
-                  fontWeight='semibold'
+                  fontWeight='bold'
                   color='grayBlack'>
                   {imgHeading}
                 </Heading>
