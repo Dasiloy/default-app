@@ -54,7 +54,7 @@ export default function BlogHero() {
       </Center>
       <Box
         bg='lightHero'
-        color='black'
+        color='white'
         boxShadow='lg'
         boxSizing='border-box'
         maxW='container.xl'
